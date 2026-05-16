@@ -49,7 +49,7 @@ def place_at_fifth(): # 6 x 6
 def place_at_last(): # 11 x 11
     go_home_pick_beeper()
 
-    while front_is_clear():
+    for i in range(5):
         move()
     put_beeper()
 
